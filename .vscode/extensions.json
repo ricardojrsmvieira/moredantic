@@ -1,0 +1,29 @@
+{
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                      RECOMMENDATIONS                                       //
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    "recommendations": [
+        // GITHUB
+        "github.vscode-github-actions",
+
+        // PYTHON
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "charliermarsh.ruff",
+
+        // TOML
+        "tamasfe.even-better-toml"
+    ],
+
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    //                                         UNWANTED                                           //
+    ////////////////////////////////////////////////////////////////////////////////////////////////
+    "unwantedRecommendations": [
+        // PYTHON
+        // Installed by default with the Python extension, but we don't use it.
+        "ms-python.debugpy",
+        "ms-python.vscode-python-envs",
+        // Conflicts with Pylance that already comes with the functionality of Pyright.
+        "ms-pyright.pyright"
+    ]
+}
