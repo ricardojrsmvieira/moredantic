@@ -1,4 +1,4 @@
-"""Types for the mydantic package."""
+"""Types for the moredantic package."""
 
 # ---> Standard library imports <--- #
 from typing import TypedDict

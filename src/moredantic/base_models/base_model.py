@@ -9,7 +9,7 @@ from typing import Any, ClassVar, Literal, LiteralString, Self, get_args, overri
 from pydantic import BaseModel as PydanticBaseModel
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.base_class import BaseClass
+from moredantic.base_class import BaseClass
 
 # ---> Local imports <--- #
 from .constants import BASE_CONFIG_DICT, DEFAULT_BASE_MODEL_SELF_CONFIG

@@ -4,7 +4,7 @@
 from typing import TypedDict
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.types import BaseClassModelSelfConfigType
+from moredantic.types import BaseClassModelSelfConfigType
 
 
 # ! IMPORTANT : Whatever you add to one, add to the other ->

@@ -4,7 +4,7 @@
 from pydantic import ConfigDict
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.decorators.base_decorator import base_decorator
+from moredantic.decorators.base_decorator import base_decorator
 
 # ---> Local imports <--- #
 from .types import DefaultBaseModelSelfConfigType

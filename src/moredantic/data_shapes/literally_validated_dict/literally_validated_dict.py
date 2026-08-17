@@ -8,7 +8,7 @@ from typing import Literal, Self, get_args, get_origin
 from pydantic import model_validator
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.base_models import RootArbitraryModel
+from moredantic.base_models import RootArbitraryModel
 
 
 class LiterallyValidatedDict[keysT: str, valuesT](RootArbitraryModel[dict[keysT, valuesT]]):

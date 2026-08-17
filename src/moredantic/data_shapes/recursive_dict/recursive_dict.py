@@ -6,7 +6,7 @@ from functools import cached_property
 from typing import ClassVar, Never, is_typeddict, override
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.base_models import RootModel
+from moredantic.base_models import RootModel
 
 
 class RecursiveDictBaseClass[

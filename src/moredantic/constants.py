@@ -1,4 +1,4 @@
-"""Constants for the mydantic package."""
+"""Constants for the moredantic package."""
 
 # ---> Local imports <--- #
 from .types import DefaultBaseClassModelSelfConfigType

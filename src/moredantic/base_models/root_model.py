@@ -8,7 +8,7 @@ from typing import ClassVar, override
 from pydantic import RootModel as PydanticRootModel
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic.base_class import BaseClass
+from moredantic.base_class import BaseClass
 
 # ---> Local imports <--- #
 from .constants import ROOT_CONFIG_DICT

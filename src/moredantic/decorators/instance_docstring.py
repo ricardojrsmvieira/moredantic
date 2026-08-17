@@ -5,8 +5,8 @@ from collections.abc import Callable
 from typing import Any, override
 
 # ---> First party imports <--- #
-from chatbot_app import MyDebugManager
-from chatbot_app.utils.strings import safe_format
+from moredantic import _MyDebugManager as MyDebugManager  # pyright: ignore[reportPrivateUsage]
+from moredantic.utils import safe_format
 
 # ---> Local imports <--- #
 from .base_decorator import base_decorator

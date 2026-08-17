@@ -1,4 +1,4 @@
-"""BaseClass module for Mydantic models."""
+"""BaseClass module for Moredantic models."""
 
 # ---> Standard library imports <--- #
 import re
@@ -6,7 +6,11 @@ from collections.abc import Sequence
 from typing import Any, ClassVar, NoDefault, TypeAliasType, get_args, override
 
 # ---> First party imports <--- #
-from chatbot_app import NONE_DEBUG_GROUP, MyDebugGroup, MyDebugManager
+from moredantic import (
+  _NONE_DEBUG_GROUP as NONE_DEBUG_GROUP,  # pyright: ignore[reportPrivateUsage]
+  _MyDebugGroup as MyDebugGroup,  # pyright: ignore[reportPrivateUsage]
+  _MyDebugManager as MyDebugManager,  # pyright: ignore[reportPrivateUsage]
+)
 
 # ---> Local imports <--- #
 from .constants import DEFAULT_BASE_CLASS_MODEL_SELF_CONFIG
@@ -46,7 +50,7 @@ class BaseClass:
   @override
   def __init_subclass__(cls, **kwargs: Any) -> None:
     cls._debug_group = MyDebugManager.new_group(f'Initializing subclass {cls.__name__}',
-                                                '__mydantic_dg__')
+                                                '__moredantic_dg__')
     # Get the values from the father class before setting the values for the current class
     # We'll need this info later
     cls._father_is_abstract_base_class = cls._is_abstract_base_class

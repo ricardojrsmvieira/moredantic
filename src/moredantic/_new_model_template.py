@@ -10,7 +10,7 @@
 
 
 # ---> First party imports <--- #
-from chatbot_app.mydantic import BaseModel
+from moredantic import BaseModel
 
 
 class NewModelTemplate(BaseModel):
