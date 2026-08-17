@@ -5,7 +5,7 @@ build-backend = "uv_build"
 
 [project]
 name = "moredantic"
-description = "Python library ..."
+description = "A python library created on top of Pydantic that adds some functionalities to the Base and Root Models. Also adds some new data shapes models, new annotations and new decorators."
 version = "0.0.1"
 readme = "README.md"
 license = "MIT"
