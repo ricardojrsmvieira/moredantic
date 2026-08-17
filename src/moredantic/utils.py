@@ -1,3 +1,5 @@
+"""Utils module for Moredantic."""
+
 # ---> Standard library imports <--- #
 import json
 import re

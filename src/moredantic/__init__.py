@@ -1,4 +1,5 @@
-# ruff: noqa: E402
+# pyright: reportImportCycles = false
+# # ruff: noqa: E402
 """Moredantic package."""
 
 
