@@ -6,7 +6,7 @@ build-backend = "uv_build"
 [project]
 name = "moredantic"
 description = "A python library created on top of Pydantic that adds some functionalities to the Base and Root Models. Also adds some new data shapes models, new annotations and new decorators."
-version = "0.0.1"
+version = "0.0.4"
 readme = "README.md"
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
@@ -23,8 +23,11 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Typing :: Typed"
 ]
-requires-python = ">= 3.12"
-dependencies = []
+requires-python = ">= 3.13"
+dependencies = [
+    "debug-group ~= 0.0.7",
+    "pydantic == 2.13.4",
+]
 
 
 [dependency-groups]
