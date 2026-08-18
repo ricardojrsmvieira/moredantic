@@ -6,11 +6,7 @@ from collections.abc import Sequence
 from typing import Any, ClassVar, NoDefault, TypeAliasType, get_args, override
 
 # ---> First party imports <--- #
-from moredantic import (
-  _NONE_DEBUG_GROUP as NONE_DEBUG_GROUP,  # pyright: ignore[reportPrivateUsage]
-  _MyDebugGroup as MyDebugGroup,  # pyright: ignore[reportPrivateUsage]
-  _MyDebugManager as MyDebugManager,  # pyright: ignore[reportPrivateUsage]
-)
+from moredantic.my_debug_group import NONE_DEBUG_GROUP, MyDebugGroup, MyDebugManager
 
 # ---> Local imports <--- #
 from .constants import DEFAULT_BASE_CLASS_MODEL_SELF_CONFIG

@@ -9,7 +9,7 @@ from typing import Any, Literal
 from pydantic import BaseModel
 
 # ---> First party imports <--- #
-from moredantic import _MyDebugGroup as MyDebugGroup  # pyright: ignore[reportPrivateUsage]
+from moredantic.my_debug_group import MyDebugGroup
 
 # ---> Local imports <--- #
 from .regex import call_dict_key_regex

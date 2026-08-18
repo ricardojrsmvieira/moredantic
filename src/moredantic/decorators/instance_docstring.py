@@ -5,7 +5,7 @@ from collections.abc import Callable
 from typing import Any, override
 
 # ---> First party imports <--- #
-from moredantic import _MyDebugManager as MyDebugManager  # pyright: ignore[reportPrivateUsage]
+from moredantic.my_debug_group import MyDebugManager
 from moredantic.utils import safe_format
 
 # ---> Local imports <--- #
