@@ -179,15 +179,15 @@ wheels = [
 
 [[package]]
 name = "debug-group"
-version = "0.0.6"
+version = "0.0.7"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "escansi" },
     { name = "pydantic" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/51/4d/8a22510debfb07f441b7c2dbc033fcd605a55cda7bfb87400ff601cd7213/debug_group-0.0.6.tar.gz", hash = "sha256:752928b25b93f9ed2af80e70872bf555bec63e9ef6aca999851befc604759680", size = 7511, upload-time = "2026-08-18T00:24:11.781Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/fa/cc/9a8a5bde5b9c89ea0624078745c605db57a600a1612120151671d05c3b07/debug_group-0.0.7.tar.gz", hash = "sha256:d0d2efb90e2d531a58e375bcc18cc5b812374fc4a99c1f3f1f8cc460e92ca5f3", size = 7516, upload-time = "2026-08-18T00:35:24.703Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/a7/a2/10f33a113568fec41d137c8faba8052c99e62d7998a1e6078b99f9641a2d/debug_group-0.0.6-py3-none-any.whl", hash = "sha256:037b5c6f131d094e19de7258669a13a5cc1c9df37bddb3f236d3f513302f4b08", size = 10167, upload-time = "2026-08-18T00:24:10.807Z" },
+    { url = "https://files.pythonhosted.org/packages/ed/f7/41f97d5a82dca944eb0e379cb6e1c446ef04bd4ca9cf3c9e0e55d1e250f0/debug_group-0.0.7-py3-none-any.whl", hash = "sha256:96ea3658f114eeb2756193af7441987631e2322d824eb9c38e0d8f793a70f113", size = 10172, upload-time = "2026-08-18T00:35:23.382Z" },
 ]
 
 [[package]]
@@ -261,7 +261,7 @@ wheels = [
 
 [[package]]
 name = "moredantic"
-version = "0.0.3"
+version = "0.0.4"
 source = { editable = "." }
 dependencies = [
     { name = "debug-group" },
@@ -277,7 +277,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
-    { name = "debug-group", specifier = "~=0.0.6" },
+    { name = "debug-group", specifier = "~=0.0.7" },
     { name = "pydantic", specifier = "==2.13.4" },
 ]
 
